@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Gas Calculator</string>
+    <string name="lbPrecoGasolina">Gas Value:</string>
+    <string name="tfPrecoGasolina">Gas Value</string>
+    <string name="lbPrecoAlcool">Ethanol Value:</string>
+    <string name="tfPrecoAlcool">Ethanol Value</string>
+    <string name="btCalcular">Calculate</string>
+    <string name="ethanolChoice">Ethanol is the best choice.</string>
+    <string name="gasChoice">Gas is the best choice.</string>
+</resources>
