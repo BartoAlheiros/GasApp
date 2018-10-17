@@ -7,6 +7,13 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
+    val RESULT = ""
+
+    override fun onSaveInstanceState(savedInstanceState: Bundle?) {
+        savedInstanceState?.putString("RESULT",tfResult.text.toString())
+        super.onSaveInstanceState(savedInstanceState)
+    }
+
     fun calcular(v: View?) {
 
         var gasolina = tfGas.text.toString().toDouble()
@@ -22,5 +29,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        if (savedInstanceState != null)
+            tfResult.text = savedInstanceState.getString("RESULT")
+
     }
 }

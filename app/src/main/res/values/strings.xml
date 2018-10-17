@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Gas Calculator</string>
+    <string name="app_name">Fuel Calculator</string>
     <string name="lbPrecoGasolina">Gas Value:</string>
     <string name="tfPrecoGasolina">Gas Value</string>
     <string name="lbPrecoAlcool">Ethanol Value:</string>

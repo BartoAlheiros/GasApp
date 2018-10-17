@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Calculadora Combustível</string>
+    <string name="lbPrecoGasolina">Preço da Gasolina:</string>
+    <string name="tfPrecoGasolina">Preço da Gasolina</string>
+    <string name="lbPrecoAlcool">Preço do Ethanol:</string>
+    <string name="tfPrecoAlcool">Preço do Ethanol</string>
+    <string name="btCalcular">Calcular</string>
+    <string name="ethanolChoice">Ethanol é a melhor escolha.</string>
+    <string name="gasChoice">Gasolina é a melhor escolha.</string>
+</resources>
